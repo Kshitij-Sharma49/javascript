@@ -63,7 +63,7 @@ const addNewNote = (text = "") => {
 
 // getting data back from localStorage
 const notes = JSON.parse(localStorage.getItem("notes"));
-
+let hello, world;
 if (notes) {
   notes.forEach((note) => addNewNote(note));
 }
